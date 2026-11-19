@@ -64,6 +64,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Miha_Robot_NPC
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 7fb2f363e2a5a43129d14add5e372c6c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1258c7c1f20b95775b36d781df038a5a, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 7fb2f363e2a5a43129d14add5e372c6c, type: 3}
+      propertyPath: m_CullingMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

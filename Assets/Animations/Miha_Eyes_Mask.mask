@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Miha_Eyes_Mask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000u
+  m_Elements:
+  - m_Path: 
+    m_Weight: 0
+  - m_Path: Miha_Arm_L
+    m_Weight: 0
+  - m_Path: Miha_Arm_R
+    m_Weight: 0
+  - m_Path: Miha_Blush_L
+    m_Weight: 0
+  - m_Path: Miha_Blush_R
+    m_Weight: 0
+  - m_Path: Miha_Body
+    m_Weight: 0
+  - m_Path: Miha_Eye_L
+    m_Weight: 1
+  - m_Path: Miha_Eye_R
+    m_Weight: 1
+  - m_Path: Miha_Head
+    m_Weight: 0
+  - m_Path: Miha_Jet_Core
+    m_Weight: 0
+  - m_Path: Miha_Jet_Nozzle
+    m_Weight: 0
+  - m_Path: Miha_Jet_Outer
+    m_Weight: 0
+  - m_Path: Miha_Neck
+    m_Weight: 0
+  - m_Path: Miha_Prop_Blade_L
+    m_Weight: 0
+  - m_Path: Miha_Prop_Blade_R
+    m_Weight: 0
+  - m_Path: Miha_Prop_Hub
+    m_Weight: 0
+  - m_Path: Miha_Prop_Stem
+    m_Weight: 0
+  - m_Path: Miha_Rig
+    m_Weight: 0
+  - m_Path: Miha_Rig/root
+    m_Weight: 0
+  - m_Path: Miha_Rig/root/body
+    m_Weight: 0
+  - m_Path: Miha_Rig/root/body/arm.L
+    m_Weight: 0
+  - m_Path: Miha_Rig/root/body/arm.R
+    m_Weight: 0
+  - m_Path: Miha_Rig/root/body/jet
+    m_Weight: 0
+  - m_Path: Miha_Rig/root/body/neck
+    m_Weight: 0
+  - m_Path: Miha_Rig/root/body/neck/head
+    m_Weight: 0
+  - m_Path: Miha_Rig/root/body/neck/head/blush.L
+    m_Weight: 1
+  - m_Path: Miha_Rig/root/body/neck/head/blush.R
+    m_Weight: 1
+  - m_Path: Miha_Rig/root/body/neck/head/eye.L
+    m_Weight: 1
+  - m_Path: Miha_Rig/root/body/neck/head/eye.R
+    m_Weight: 1
+  - m_Path: Miha_Rig/root/body/neck/head/prop_hub
+    m_Weight: 0
+  - m_Path: Miha_Visor
+    m_Weight: 0
