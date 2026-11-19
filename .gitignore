@@ -70,3 +70,6 @@ Desktop.ini
 
 # Crashlytics
 crashlytics-build.properties
+
+# Course brief repo (separate git repo, not part of the project)
+/giga-ea234505-2026-final-project-group-3/
