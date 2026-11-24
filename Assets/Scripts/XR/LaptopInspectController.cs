@@ -50,7 +50,7 @@ namespace XRFixIt.XR
         [SerializeField] private float scrollZoomStep = 0.12f;
 
         [Header("Input & Feedback")]
-        [SerializeField] private bool clickAgainToReturn = true;
+        [SerializeField] private bool clickAgainToReturn = false;
         [SerializeField] private Color hoverEmissionColor = new Color(0.12f, 0.38f, 0.58f, 1f);
         [SerializeField] private float hapticAmplitude = 0.22f;
         [SerializeField] private float hapticDuration = 0.04f;
@@ -143,6 +143,7 @@ namespace XRFixIt.XR
             if (cam == null) return;
 
             SetHoverHighlight(false);
+            if (ownCollider != null) ownCollider.enabled = false;
             ComputeInspectPose(cam.transform, out Vector3 targetPos, out Quaternion targetRot);
             currentZoomScale = 1f;
 
@@ -372,6 +373,7 @@ namespace XRFixIt.XR
             if (finalState == LaptopInspectState.OnDesk)
             {
                 currentZoomScale = 1f;
+                if (ownCollider != null) ownCollider.enabled = true;
             }
             State = finalState;
             transition = null;

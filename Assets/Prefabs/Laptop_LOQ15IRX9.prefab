@@ -1,5 +1,217 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6210164275653376749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8622880832462353671}
+  - component: {fileID: 9080043614286291504}
+  - component: {fileID: 4331856310142258069}
+  m_Layer: 0
+  m_Name: Disassembly_HUD
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8622880832462353671
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210164275653376749}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0.175}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8177263043088013623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0.025}
+  m_SizeDelta: {x: 0.55, y: 0.12}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!23 &9080043614286291504
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210164275653376749}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4331856310142258069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6210164275653376749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshPro
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Bongkar: 0/29'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: 0
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 0.16
+  m_fontSizeBase: 0.16
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656bu
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 0
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  _SortingLayer: 0
+  _SortingLayerID: 0
+  _SortingOrder: 0
+  m_hasFontAssetChanged: 0
+  m_renderer: {fileID: 9080043614286291504}
+  m_maskType: 0
+--- !u!1 &8801738490102983570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3090679578595068084}
+  m_Layer: 0
+  m_Name: RemovedPartsTray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3090679578595068084
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8801738490102983570}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.34, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8177263043088013623}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &8570842761627811548
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -54,7 +266,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3090679578595068084}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8622880832462353671}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
       insertIndex: -1
@@ -68,17 +286,796 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5508203540396304186}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8323266689323263563}
+    - targetCorrespondingSourceObject: {fileID: 6722301057373711295, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8721336687066086668}
+    - targetCorrespondingSourceObject: {fileID: 6722301057373711295, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4445208490642141777}
+    - targetCorrespondingSourceObject: {fileID: 6722301057373711295, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4015044841906309732}
+    - targetCorrespondingSourceObject: {fileID: -2925185771593327362, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7958653329454199404}
+    - targetCorrespondingSourceObject: {fileID: -2925185771593327362, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2676666651386971337}
+    - targetCorrespondingSourceObject: {fileID: -2925185771593327362, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3606378451605447079}
+    - targetCorrespondingSourceObject: {fileID: -2580988231347829557, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3155553566917699260}
+    - targetCorrespondingSourceObject: {fileID: -2580988231347829557, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4644748545177037377}
+    - targetCorrespondingSourceObject: {fileID: -2580988231347829557, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2289818244841650573}
+    - targetCorrespondingSourceObject: {fileID: -854275533803751940, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2328812071585231956}
+    - targetCorrespondingSourceObject: {fileID: -854275533803751940, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3753333426499514627}
+    - targetCorrespondingSourceObject: {fileID: -854275533803751940, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2789577616085502617}
+    - targetCorrespondingSourceObject: {fileID: 3775542784692878825, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6924295618589617476}
+    - targetCorrespondingSourceObject: {fileID: 3775542784692878825, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3163557302753680892}
+    - targetCorrespondingSourceObject: {fileID: 3775542784692878825, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2977151568984376887}
+    - targetCorrespondingSourceObject: {fileID: -2325110808561981795, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2093675453119185627}
+    - targetCorrespondingSourceObject: {fileID: -2325110808561981795, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8384983818679921881}
+    - targetCorrespondingSourceObject: {fileID: -2325110808561981795, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7775330044188728263}
+    - targetCorrespondingSourceObject: {fileID: 3346853361232830133, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5808209617937641329}
+    - targetCorrespondingSourceObject: {fileID: 3346853361232830133, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 411424173453904841}
+    - targetCorrespondingSourceObject: {fileID: 3346853361232830133, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808533757077996075}
+    - targetCorrespondingSourceObject: {fileID: -8004389684395849731, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1302230894466842961}
+    - targetCorrespondingSourceObject: {fileID: -8004389684395849731, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 606594291377208311}
+    - targetCorrespondingSourceObject: {fileID: -8004389684395849731, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5612185356963056380}
+    - targetCorrespondingSourceObject: {fileID: -2552511566429004792, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2857493336949691084}
+    - targetCorrespondingSourceObject: {fileID: -2552511566429004792, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4518296478200787701}
+    - targetCorrespondingSourceObject: {fileID: -2552511566429004792, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2623542374420463440}
+    - targetCorrespondingSourceObject: {fileID: -7940302817805593873, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3430254640653787319}
+    - targetCorrespondingSourceObject: {fileID: -7940302817805593873, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57336044162671394}
+    - targetCorrespondingSourceObject: {fileID: -7940302817805593873, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7743841169711414018}
+    - targetCorrespondingSourceObject: {fileID: -242479275096341041, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4049273116478578981}
+    - targetCorrespondingSourceObject: {fileID: -242479275096341041, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6677533538141242467}
+    - targetCorrespondingSourceObject: {fileID: -242479275096341041, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 247584716866659901}
+    - targetCorrespondingSourceObject: {fileID: 8993242844630755807, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8818291421527787488}
+    - targetCorrespondingSourceObject: {fileID: 8993242844630755807, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7340309000166916205}
+    - targetCorrespondingSourceObject: {fileID: 8993242844630755807, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6664073363299332546}
+    - targetCorrespondingSourceObject: {fileID: 1757964431323595145, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2122237593335039539}
+    - targetCorrespondingSourceObject: {fileID: 1757964431323595145, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6275739091506273077}
+    - targetCorrespondingSourceObject: {fileID: 1757964431323595145, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1490136319845145902}
+    - targetCorrespondingSourceObject: {fileID: -8261710474084503015, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1406101054689493507}
+    - targetCorrespondingSourceObject: {fileID: -8261710474084503015, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9215473973109599359}
+    - targetCorrespondingSourceObject: {fileID: -8261710474084503015, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3805157243173371674}
+    - targetCorrespondingSourceObject: {fileID: -5143306838366569066, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4710745492252741521}
+    - targetCorrespondingSourceObject: {fileID: -5143306838366569066, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5576265745667613759}
+    - targetCorrespondingSourceObject: {fileID: -5143306838366569066, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 118002604970503900}
+    - targetCorrespondingSourceObject: {fileID: -733451456625241178, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3310097141469338062}
+    - targetCorrespondingSourceObject: {fileID: -733451456625241178, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1855031767247509749}
+    - targetCorrespondingSourceObject: {fileID: -733451456625241178, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1078737238350710645}
+    - targetCorrespondingSourceObject: {fileID: -8928676605271020864, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7140775227575488602}
+    - targetCorrespondingSourceObject: {fileID: -8928676605271020864, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2391607248924808099}
+    - targetCorrespondingSourceObject: {fileID: -8928676605271020864, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 599900223768645187}
+    - targetCorrespondingSourceObject: {fileID: -325340305548798354, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2228335528765743022}
+    - targetCorrespondingSourceObject: {fileID: -325340305548798354, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7099762555578825768}
+    - targetCorrespondingSourceObject: {fileID: -325340305548798354, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7019038501574646392}
+    - targetCorrespondingSourceObject: {fileID: 4071408130558349909, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9086151840255383906}
+    - targetCorrespondingSourceObject: {fileID: 4071408130558349909, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7597968953411688845}
+    - targetCorrespondingSourceObject: {fileID: 4071408130558349909, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6872208257487702655}
+    - targetCorrespondingSourceObject: {fileID: 6469569151215514994, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 601444813499015912}
+    - targetCorrespondingSourceObject: {fileID: 6469569151215514994, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2597906835655078924}
+    - targetCorrespondingSourceObject: {fileID: 6469569151215514994, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8991391237061812387}
+    - targetCorrespondingSourceObject: {fileID: 4329092783701635652, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6417705927322434931}
+    - targetCorrespondingSourceObject: {fileID: 4329092783701635652, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1461641567922312529}
+    - targetCorrespondingSourceObject: {fileID: 4329092783701635652, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6274470081977190847}
+    - targetCorrespondingSourceObject: {fileID: 3492308862357833650, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1464181071181595115}
+    - targetCorrespondingSourceObject: {fileID: 3492308862357833650, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8562542223546573149}
+    - targetCorrespondingSourceObject: {fileID: 3492308862357833650, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2452922549669215139}
+    - targetCorrespondingSourceObject: {fileID: -6470574286359054323, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5080888530054491318}
+    - targetCorrespondingSourceObject: {fileID: -6470574286359054323, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4574944214097791721}
+    - targetCorrespondingSourceObject: {fileID: -6470574286359054323, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6727640251876623019}
+    - targetCorrespondingSourceObject: {fileID: 646903804071673252, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5272668280367668307}
+    - targetCorrespondingSourceObject: {fileID: 646903804071673252, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5452371447652911541}
+    - targetCorrespondingSourceObject: {fileID: 646903804071673252, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3741409222877601719}
+    - targetCorrespondingSourceObject: {fileID: 4513726586767213262, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1656882004791313964}
+    - targetCorrespondingSourceObject: {fileID: 4513726586767213262, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8093759577766503982}
+    - targetCorrespondingSourceObject: {fileID: 4513726586767213262, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8629147962374041384}
+    - targetCorrespondingSourceObject: {fileID: -6693421414514531844, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2691007710073856658}
+    - targetCorrespondingSourceObject: {fileID: -6693421414514531844, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5069067624492333993}
+    - targetCorrespondingSourceObject: {fileID: -6693421414514531844, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6519056155673698407}
+    - targetCorrespondingSourceObject: {fileID: 5983878074060096830, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4362057437764092203}
+    - targetCorrespondingSourceObject: {fileID: 5983878074060096830, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8871891482553454416}
+    - targetCorrespondingSourceObject: {fileID: 5983878074060096830, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4230017743545768477}
+    - targetCorrespondingSourceObject: {fileID: -7529656501461542604, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7271450618944381197}
+    - targetCorrespondingSourceObject: {fileID: -7529656501461542604, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9043894947173553878}
+    - targetCorrespondingSourceObject: {fileID: -7529656501461542604, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2265941763173631469}
+    - targetCorrespondingSourceObject: {fileID: -8634847093140057669, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6680706348689932833}
+    - targetCorrespondingSourceObject: {fileID: -8634847093140057669, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3769725557602646689}
+    - targetCorrespondingSourceObject: {fileID: -8634847093140057669, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1214511811438564734}
   m_SourcePrefab: {fileID: 100100000, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+--- !u!1 &204000059956415264 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -854275533803751940, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2328812071585231956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204000059956415264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 2789577616085502617}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &3753333426499514627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204000059956415264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Casing Bawah
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3163557302753680892}
+  - {fileID: 8384983818679921881}
+  - {fileID: 411424173453904841}
+  - {fileID: 606594291377208311}
+  - {fileID: 4518296478200787701}
+  - {fileID: 57336044162671394}
+  - {fileID: 6677533538141242467}
+  - {fileID: 7340309000166916205}
+  - {fileID: 6275739091506273077}
+  - {fileID: 9215473973109599359}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 0.45
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 2328812071585231956}
+  partRenderers:
+  - {fileID: 9178943027558961387}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &2789577616085502617
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204000059956415264}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.3628912, y: 0.27123365, z: 0.016}
+  m_Center: {x: 0.00051677227, y: 0.00069129467, z: 0.013214998}
 --- !u!23 &207236708185876682 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 8363607429150840342, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &226167195092233594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -733451456625241178, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3310097141469338062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226167195092233594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 1078737238350710645}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &1855031767247509749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226167195092233594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Fan Kanan
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 3310097141469338062}
+  partRenderers:
+  - {fileID: 5264850080004496740}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &1078737238350710645
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226167195092233594}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: -0.000000007450581, y: -0.000000013282523, z: -0.00065750163}
 --- !u!23 &497617454027553893 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 8076682996969964217, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &738496523205580547 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8993242844630755807, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8818291421527787488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738496523205580547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 6664073363299332546}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &7340309000166916205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738496523205580547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 08
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 8818291421527787488}
+  partRenderers:
+  - {fileID: 6363329251045585672}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &6664073363299332546
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738496523205580547}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: -0.0000000018626451, y: -0.000000016774981, z: 0.0026199976}
+--- !u!1 &744020236645219091 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -242479275096341041, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4049273116478578981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744020236645219091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 247584716866659901}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &6677533538141242467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744020236645219091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 07
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 4049273116478578981}
+  partRenderers:
+  - {fileID: 7302728603202268728}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &247584716866659901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 744020236645219091}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: 0, y: -0.00000001654215, z: 0.0026199971}
 --- !u!23 &885674698693784267 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -379625738539889641, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -94,6 +1091,133 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -311645129176762918, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &976692483539347634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -325340305548798354, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2228335528765743022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976692483539347634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 7019038501574646392}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &7099762555578825768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976692483539347634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Heatsink
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 0.75
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 2228335528765743022}
+  partRenderers:
+  - {fileID: 9059445562086200952}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &7019038501574646392
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 976692483539347634}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.15537047, y: 0.0989299, z: 0.018}
+  m_Center: {x: -0.00011242926, y: -0.00018826548, z: 0.0025074985}
 --- !u!23 &1004608099912726824 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -360053042503317516, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -129,6 +1253,135 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -2969208240483251366, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2420235224658649634 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2925185771593327362, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7958653329454199404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2420235224658649634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 3606378451605447079}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &2676666651386971337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2420235224658649634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Baterai
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  - {fileID: 4445208490642141777}
+  - {fileID: 4644748545177037377}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 0.55
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 7958653329454199404}
+  partRenderers:
+  - {fileID: 207236708185876682}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &3606378451605447079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2420235224658649634}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.22258049, y: 0.085128546, z: 0.016}
+  m_Center: {x: 0, y: 0.000000007450581, z: -0.0000000013969839}
 --- !u!23 &2527744419272239063 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 6189522849560992011, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -139,6 +1392,133 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 5932786030291217464, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2736712424841575394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5983878074060096830, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4362057437764092203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2736712424841575394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 4230017743545768477}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &8871891482553454416
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2736712424841575394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Kabel Antena WiFi
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 4362057437764092203}
+  partRenderers:
+  - {fileID: 7778758271632564882}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &4230017743545768477
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2736712424841575394}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016, y: 0.017552856, z: 0.016}
+  m_Center: {x: -0.0000000037252903, y: 0.000000004656613, z: -0.0000000013969839}
 --- !u!23 &2818719508260117851 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 5904177749802836871, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -149,11 +1529,645 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -3330477349196110699, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2975274192220477505 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2325110808561981795, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2093675453119185627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2975274192220477505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 7775330044188728263}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &8384983818679921881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2975274192220477505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 02
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 2093675453119185627}
+  partRenderers:
+  - {fileID: 4187864180823775599}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &7775330044188728263
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2975274192220477505}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: 0.0000000018626451, y: 0.000000015821309, z: 0.0026199976}
+--- !u!1 &3054118215172088532 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2552511566429004792, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2857493336949691084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054118215172088532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 2623542374420463440}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &4518296478200787701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054118215172088532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 05
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 2857493336949691084}
+  partRenderers:
+  - {fileID: 8553719465407742668}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &2623542374420463440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3054118215172088532}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: -0.000000007450581, y: 2.2165475e-10, z: 0.0026199962}
+--- !u!1 &3089395625784064535 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2580988231347829557, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3155553566917699260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3089395625784064535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 2289818244841650573}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &4644748545177037377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3089395625784064535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Baterai
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  - {fileID: 4445208490642141777}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 0.7
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 3155553566917699260}
+  partRenderers:
+  - {fileID: 2818719508260117851}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &2289818244841650573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3089395625784064535}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.21102408, y: 0.08443258, z: 0.018}
+  m_Center: {x: 0, y: 0.000000010699034, z: 0.0039999983}
+--- !u!1 &3151298348664984931 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6722301057373711295, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8721336687066086668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3151298348664984931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 4015044841906309732}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &4445208490642141777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3151298348664984931}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Konektor Baterai
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 8721336687066086668}
+  partRenderers:
+  - {fileID: 3903264873241327257}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &4015044841906309732
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3151298348664984931}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016, y: 0.016, z: 0.016}
+  m_Center: {x: 0.0000000018626451, y: 0.0000000069849193, z: -0.0000000017462298}
 --- !u!23 &3171923892122296839 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -2669174506172736293, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3402828824646978478 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6469569151215514994, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &601444813499015912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3402828824646978478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 8991391237061812387}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &2597906835655078924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3402828824646978478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Speaker Kiri
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 601444813499015912}
+  partRenderers:
+  - {fileID: 4562085131379877779}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &8991391237061812387
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3402828824646978478}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016, y: 0.049491838, z: 0.016}
+  m_Center: {x: 0, y: 0.000000013038516, z: -9.313226e-10}
 --- !u!23 &3545848441170627143 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -4051935325951052645, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -209,6 +2223,132 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 5313693772892117327, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4797648878556267317 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3775542784692878825, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6924295618589617476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797648878556267317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 2977151568984376887}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &3163557302753680892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797648878556267317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 01
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 6924295618589617476}
+  partRenderers:
+  - {fileID: 6733026125953376635}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &2977151568984376887
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4797648878556267317}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: 0, y: 0.00000001977943, z: 0.002619997}
 --- !u!23 &4813402717806350698 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3764275159036522422, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -224,21 +2364,785 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -5488021651724899993, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5082009249442445678 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3492308862357833650, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1464181071181595115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082009249442445678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 2452922549669215139}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &8562542223546573149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082009249442445678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Penutup RAM
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 1464181071181595115}
+  partRenderers:
+  - {fileID: 4983058674991060923}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &2452922549669215139
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5082009249442445678}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.081604786, y: 0.07431532, z: 0.016}
+  m_Center: {x: 0, y: 0, z: -0.0000000018626451}
 --- !u!23 &5174496538955779790 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3548345279809794066, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5211292034378415122 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4513726586767213262, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1656882004791313964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5211292034378415122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 8629147962374041384}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &8093759577766503982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5211292034378415122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: SSD M.2 Utama
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  - {fileID: 5069067624492333993}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 1656882004791313964}
+  partRenderers:
+  - {fileID: 7366017310471307878}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &8629147962374041384
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5211292034378415122}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.038301244, y: 0.020625636, z: 0.016}
+  m_Center: {x: 0, y: 9.313226e-10, z: -0.0000000016298145}
 --- !u!23 &5264850080004496740 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -4620339913557580872, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5396938426542165144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4329092783701635652, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6417705927322434931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396938426542165144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 6274470081977190847}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &1461641567922312529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396938426542165144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Modul RAM
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  - {fileID: 8562542223546573149}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 6417705927322434931}
+  partRenderers:
+  - {fileID: 7500849494414204629}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &6274470081977190847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5396938426542165144}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.061732315, y: 0.021480914, z: 0.016}
+  m_Center: {x: 0, y: -0.0000000018626451, z: -0.0000000013969839}
+--- !u!1 &5651610414696301386 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5143306838366569066, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4710745492252741521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651610414696301386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 118002604970503900}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &5576265745667613759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651610414696301386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Fan Kiri
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 4710745492252741521}
+  partRenderers:
+  - {fileID: 962943982038256390}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &118002604970503900
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5651610414696301386}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: 0, y: -0.0000000021066517, z: 0.0018824977}
+--- !u!1 &5652382618614557833 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4071408130558349909, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &9086151840255383906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652382618614557833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 6872208257487702655}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &7597968953411688845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652382618614557833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Konektor Fan Kiri
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 9086151840255383906}
+  partRenderers:
+  - {fileID: 6409201458086447744}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &6872208257487702655
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5652382618614557833}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016, y: 0.016, z: 0.016}
+  m_Center: {x: -0.0000000037252903, y: -0.0000000013969839, z: -9.313226e-10}
 --- !u!23 &5763254167900080833 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -5113009214113647587, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &5819256466796119761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6470574286359054323, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5080888530054491318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819256466796119761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 6727640251876623019}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &4574944214097791721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819256466796119761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Konektor Fan Kanan
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 5080888530054491318}
+  partRenderers:
+  - {fileID: 7300318046822715973}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &6727640251876623019
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5819256466796119761}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016659185, y: 0.016, z: 0.016}
+  m_Center: {x: -0.000000007450581, y: -0.0000000044237822, z: -9.313226e-10}
 --- !u!23 &5906663374127135136 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2812901625065490300, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -249,11 +3153,264 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2500963196222299205, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6191869749045223200 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -6693421414514531844, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2691007710073856658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191869749045223200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 6519056155673698407}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &5069067624492333993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191869749045223200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup SSD
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 2691007710073856658}
+  partRenderers:
+  - {fileID: 8956202226385967108}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &6519056155673698407
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6191869749045223200}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: -0.000000007450581, y: 4.544854e-10, z: 0.0039999983}
 --- !u!23 &6363329251045585672 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3368365045416267220, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &6378127806913011817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3346853361232830133, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5808209617937641329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378127806913011817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 1808533757077996075}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &411424173453904841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378127806913011817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 03
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 5808209617937641329}
+  partRenderers:
+  - {fileID: 8640058651686184685}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &1808533757077996075
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6378127806913011817}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: 0, y: 0.000000008137897, z: 0.0026199962}
 --- !u!23 &6409201458086447744 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3315721143752930396, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -274,6 +3431,135 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 3134861043338944423, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7021262841346861032 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7529656501461542604, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7271450618944381197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021262841346861032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 2265941763173631469}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &9043894947173553878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021262841346861032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Kartu WiFi
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  - {fileID: 8871891482553454416}
+  - {fileID: 3769725557602646689}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 7271450618944381197}
+  partRenderers:
+  - {fileID: 5763254167900080833}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &2265941763173631469
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7021262841346861032}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.030021295, y: 0.01999447, z: 0.016}
+  m_Center: {x: 0, y: 0.0000000027939677, z: -0.0000000013969839}
 --- !u!23 &7300318046822715973 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1422627864526744729, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -294,11 +3580,263 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1380179426999050482, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7357599663413098785 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8004389684395849731, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1302230894466842961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357599663413098785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 5612185356963056380}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &606594291377208311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357599663413098785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 04
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 1302230894466842961}
+  partRenderers:
+  - {fileID: 7318660394237944604}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &5612185356963056380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7357599663413098785}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: -0.000000007450581, y: 0.000000015355647, z: 0.002619997}
 --- !u!23 &7366017310471307878 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -8013986610330141510, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7439841842094910515 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -7940302817805593873, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3430254640653787319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439841842094910515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 7743841169711414018}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &57336044162671394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439841842094910515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 06
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 3430254640653787319}
+  partRenderers:
+  - {fileID: 2527744419272239063}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &7743841169711414018
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7439841842094910515}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: 0, y: -0.0000000011753292, z: 0.002619998}
 --- !u!23 &7500849494414204629 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2227486087116726281, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -314,6 +3852,132 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 2090360153177578574, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7968076390926729045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1757964431323595145, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2122237593335039539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968076390926729045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 1490136319845145902}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &6275739091506273077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968076390926729045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 09
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 2122237593335039539}
+  partRenderers:
+  - {fileID: 8084025579803221744}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &1490136319845145902
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7968076390926729045}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: 0, y: -0.000000013282523, z: 0.0026199964}
 --- !u!23 &8053381785476963217 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 1815685142580634957, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -324,6 +3988,145 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -8736426392312733652, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &8177263043088013623 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8279647994827461660 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8928676605271020864, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7140775227575488602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8279647994827461660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 599900223768645187}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &2391607248924808099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8279647994827461660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Modul Cooling & Heatsink
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  - {fileID: 7597968953411688845}
+  - {fileID: 4574944214097791721}
+  - {fileID: 5576265745667613759}
+  - {fileID: 1855031767247509749}
+  - {fileID: 7099762555578825768}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 0.55
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 7140775227575488602}
+  partRenderers:
+  - {fileID: 3795103122978878250}
+  - {fileID: 3767901903885216900}
+  - {fileID: 7338230714340023854}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &599900223768645187
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8279647994827461660}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.31358021, y: 0.14982666, z: 0.016}
+  m_Center: {x: -0.0047555864, y: -0.011154078, z: -0.0003600011}
 --- !u!23 &8302795694530527766 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 416781588302347466, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -565,6 +4368,185 @@ MonoBehaviour:
   hoverEmissionColor: {r: 0.12, g: 0.38, b: 0.58, a: 1}
   hapticAmplitude: 0.22
   hapticDuration: 0.04
+--- !u!114 &8323266689323263563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8804723936098026381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da975a01b4b743106bc3236d13d13ce8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyManager
+  inspectController: {fileID: 5508203540396304186}
+  screwdriver: {fileID: 0}
+  removedPartsTray: {fileID: 3090679578595068084}
+  statusLabel: {fileID: 4331856310142258069}
+  parts:
+  - {fileID: 3163557302753680892}
+  - {fileID: 8384983818679921881}
+  - {fileID: 411424173453904841}
+  - {fileID: 606594291377208311}
+  - {fileID: 4518296478200787701}
+  - {fileID: 57336044162671394}
+  - {fileID: 6677533538141242467}
+  - {fileID: 7340309000166916205}
+  - {fileID: 6275739091506273077}
+  - {fileID: 9215473973109599359}
+  - {fileID: 3753333426499514627}
+  - {fileID: 4445208490642141777}
+  - {fileID: 4644748545177037377}
+  - {fileID: 2676666651386971337}
+  - {fileID: 8562542223546573149}
+  - {fileID: 1461641567922312529}
+  - {fileID: 5069067624492333993}
+  - {fileID: 8093759577766503982}
+  - {fileID: 8871891482553454416}
+  - {fileID: 3769725557602646689}
+  - {fileID: 9043894947173553878}
+  - {fileID: 7597968953411688845}
+  - {fileID: 4574944214097791721}
+  - {fileID: 5576265745667613759}
+  - {fileID: 1855031767247509749}
+  - {fileID: 7099762555578825768}
+  - {fileID: 2391607248924808099}
+  - {fileID: 2597906835655078924}
+  - {fileID: 5452371447652911541}
+  screwTouchRadius: 0.032
+  screwTouchCooldown: 0.6
+  trayColumns: 3
+  traySpacingX: 0.095
+  traySpacingZ: 0.085
+  hapticAmplitude: 0.3
+  hapticDuration: 0.06
+--- !u!1 &8910725959110102213 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8261710474084503015, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1406101054689493507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910725959110102213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 3805157243173371674}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &9215473973109599359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910725959110102213}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Cover 10
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites: []
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 1406101054689493507}
+  partRenderers:
+  - {fileID: 922418214772617772}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &3805157243173371674
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8910725959110102213}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: -0.000000007450581, y: -0.000000017240643, z: 0.002619997}
 --- !u!23 &8956202226385967108 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -8450140013101717800, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
@@ -575,6 +4557,261 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 813002715430824100, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
   m_PrefabInstance: {fileID: 8570842761627811548}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &9082497667036595064 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 646903804071673252, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5272668280367668307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082497667036595064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 3741409222877601719}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &5452371447652911541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082497667036595064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Speaker Kanan
+  requiresScrewdriver: 0
+  isScrew: 0
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 5272668280367668307}
+  partRenderers:
+  - {fileID: 5174496538955779790}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &3741409222877601719
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9082497667036595064}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.016, y: 0.049491845, z: 0.016}
+  m_Center: {x: -0.000000007450581, y: 0.000000011175871, z: -6.9849193e-10}
+--- !u!1 &9140930954227822439 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -8634847093140057669, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
+  m_PrefabInstance: {fileID: 8570842761627811548}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6680706348689932833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140930954227822439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a35f6cfbfba9b548aaa00d52cfe8a50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Interactables.XRSimpleInteractable
+  m_InteractionManager: {fileID: 0}
+  m_Colliders:
+  - {fileID: 1214511811438564734}
+  m_InteractionLayers:
+    m_Bits: 1
+  m_DistanceCalculationMode: 1
+  m_SelectMode: 0
+  m_FocusMode: 1
+  m_CustomReticle: {fileID: 0}
+  m_AllowGazeInteraction: 0
+  m_AllowGazeSelect: 0
+  m_OverrideGazeTimeToSelect: 0
+  m_GazeTimeToSelect: 0.5
+  m_OverrideTimeToAutoDeselectGaze: 0
+  m_TimeToAutoDeselectGaze: 3
+  m_AllowGazeAssistance: 0
+  m_FirstHoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastHoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_HoverExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstSelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastSelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_SelectExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FirstFocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_LastFocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusEntered:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FocusExited:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Activated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Deactivated:
+    m_PersistentCalls:
+      m_Calls: []
+  m_StartingHoverFilters: []
+  m_StartingSelectFilters: []
+  m_StartingInteractionStrengthFilters: []
+  m_AutoFindParentInteractableInHierarchy: 0
+  m_ParentInteractableObject: {fileID: 0}
+--- !u!114 &3769725557602646689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140930954227822439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5557095bf8eacd71e81fa40532446f6c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::XRFixIt.XR.LaptopDisassemblyPart
+  displayName: Sekrup Kartu WiFi
+  requiresScrewdriver: 1
+  isScrew: 1
+  removePrerequisites:
+  - {fileID: 3753333426499514627}
+  - {fileID: 8871891482553454416}
+  liftDistance: 0.045
+  animDuration: 0.42
+  trayScale: 1
+  manager: {fileID: 8323266689323263563}
+  interactable: {fileID: 6680706348689932833}
+  partRenderers:
+  - {fileID: 4813402717806350698}
+  readyEmissionColor: {r: 0.12, g: 0.52, b: 0.65, a: 1}
+  lockedEmissionColor: {r: 0.55, g: 0.18, b: 0.08, a: 1}
+--- !u!65 &1214511811438564734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140930954227822439}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.014, y: 0.014, z: 0.018}
+  m_Center: {x: -0.000000007450581, y: 0.0000000062752514, z: 0.003999998}
 --- !u!23 &9178943027558961387 stripped
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: 690150366079020599, guid: 50c0725c27f349e3495bc6496c228c56, type: 3}
