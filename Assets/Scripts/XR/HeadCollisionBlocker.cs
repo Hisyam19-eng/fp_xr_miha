@@ -53,6 +53,7 @@ namespace XRFixIt.XR
         private bool IsIgnored(Collider other)
         {
             if (other.transform.IsChildOf(transform)) return true; // the rig's own colliders
+            if (other.attachedRigidbody != null) return true; // dynamic grabbable props/tools
             // The chair you are sitting on must not push you off it.
             return chair != null && chair.IsSeated && other.transform.IsChildOf(chair.transform);
         }
