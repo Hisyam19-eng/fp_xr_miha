@@ -291,6 +291,63 @@ Transform:
   - {fileID: 1879942341}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &135831774
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7425
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8177263043088013623, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8804723936098026381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
+      propertyPath: m_Name
+      value: Laptop_LOQ15IRX9
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 804f1c7e666df467ba67646d68519735, type: 3}
 --- !u!1 &247865274
 GameObject:
   m_ObjectHideFlags: 0
@@ -2126,63 +2183,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1402953942
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.7425
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.28
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 160492126304146381, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 680604370012424567, guid: 804f1c7e666df467ba67646d68519735, type: 3}
-      propertyPath: m_Name
-      value: Laptop_LOQ15IRX9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 804f1c7e666df467ba67646d68519735, type: 3}
 --- !u!1 &1439534271
 GameObject:
   m_ObjectHideFlags: 0
@@ -3537,7 +3537,6 @@ SceneRoots:
   - {fileID: 734382843}
   - {fileID: 1763685429}
   - {fileID: 977172929}
-  - {fileID: 1402953942}
   - {fileID: 1699015570}
   - {fileID: 527220316}
   - {fileID: 1342021831}
@@ -3548,3 +3547,4 @@ SceneRoots:
   - {fileID: 963969825}
   - {fileID: 322069572}
   - {fileID: 1953658823}
+  - {fileID: 135831774}
