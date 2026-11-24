@@ -59,6 +59,7 @@ namespace XRFixIt.XR
         [SerializeField] private Key toggleSeatKey = Key.F;
         [SerializeField] private float toggleCooldown = 0.35f;
         [SerializeField] private bool allowDesktopMouseClick = true;
+        [SerializeField] private bool allowXrSelectToToggleSeat = false;
 
         [Header("Animation")]
         [SerializeField] private float sitDuration = 1.1f;
@@ -100,8 +101,17 @@ namespace XRFixIt.XR
 
         private void OnEnable()
         {
-            Subscribe(chairInteractable, OnChairSelectEntered, true);
-            Subscribe(seatButton, OnButtonSelectEntered, false);
+            if (allowXrSelectToToggleSeat)
+            {
+                Subscribe(chairInteractable, OnChairSelectEntered, true);
+                Subscribe(seatButton, OnButtonSelectEntered, false);
+            }
+            else
+            {
+                // Keep XR Grip/Trigger free for grabbing the screwdriver and interacting with laptop parts.
+                if (chairInteractable != null) chairInteractable.enabled = false;
+                if (seatButton != null) seatButton.enabled = false;
+            }
             Application.onBeforeRender += HoldHeadToSeat;
 
             // Disabling the object stops the animation coroutine; never stay stuck mid-transition.
@@ -473,7 +483,7 @@ namespace XRFixIt.XR
         {
             XrControllers.Clear();
             UnityEngine.XR.InputDevices.GetDevicesWithCharacteristics(
-                UnityEngine.XR.InputDeviceCharacteristics.Controller,
+                UnityEngine.XR.InputDeviceCharacteristics.Controller | UnityEngine.XR.InputDeviceCharacteristics.Left,
                 XrControllers);
 
             bool pressed = false;
@@ -510,7 +520,7 @@ namespace XRFixIt.XR
             if (seatButtonLabel != null)
             {
                 string action = busy ? "..." : canSit ? sitLabel : standLabel;
-                string hint = IsXrHintMode() ? "A / X" : toggleSeatKey.ToString();
+                string hint = IsXrHintMode() ? "X" : toggleSeatKey.ToString();
                 seatButtonLabel.text = busy ? action : $"{action}\n<size=60%>[{hint}]</size>";
             }
 
