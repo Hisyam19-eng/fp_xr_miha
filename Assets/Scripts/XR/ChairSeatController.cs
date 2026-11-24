@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using TMPro;
 using Unity.XR.CoreUtils;
 using UnityEngine;
@@ -73,6 +74,8 @@ namespace XRFixIt.XR
         private MaterialPropertyBlock propertyBlock;
         private Coroutine transition;
         private float lastToggleTime = -10f;
+        private static readonly List<UnityEngine.XR.InputDevice> XrControllers = new List<UnityEngine.XR.InputDevice>();
+        private bool wasXrPrimaryPressed;
 
         /// <summary>Current phase of the sit/stand cycle.</summary>
         public SeatState State { get; private set; } = SeatState.Standing;
@@ -122,6 +125,12 @@ namespace XRFixIt.XR
 
         private void Update()
         {
+            if (CheckXrControllerToggle())
+            {
+                ToggleSeat();
+                return;
+            }
+
             if (Keyboard.current != null && Keyboard.current[toggleSeatKey].wasPressedThisFrame)
             {
                 ToggleSeat();
@@ -460,6 +469,37 @@ namespace XRFixIt.XR
             }
         }
 
+        private bool CheckXrControllerToggle()
+        {
+            XrControllers.Clear();
+            UnityEngine.XR.InputDevices.GetDevicesWithCharacteristics(
+                UnityEngine.XR.InputDeviceCharacteristics.Controller,
+                XrControllers);
+
+            bool pressed = false;
+            for (int i = 0; i < XrControllers.Count; i++)
+            {
+                if (XrControllers[i].TryGetFeatureValue(UnityEngine.XR.CommonUsages.primaryButton, out bool value) && value)
+                {
+                    pressed = true;
+                    break;
+                }
+            }
+
+            bool risingEdge = pressed && !wasXrPrimaryPressed;
+            wasXrPrimaryPressed = pressed;
+            return risingEdge;
+        }
+
+        private static bool IsXrHintMode()
+        {
+#if UNITY_ANDROID && !UNITY_EDITOR
+            return true;
+#else
+            return DesktopFallbackLocomotion.IsXRDisplayActive();
+#endif
+        }
+
         // ---------------------------------------------------------------- visuals
 
         private void RefreshButton()
@@ -470,7 +510,8 @@ namespace XRFixIt.XR
             if (seatButtonLabel != null)
             {
                 string action = busy ? "..." : canSit ? sitLabel : standLabel;
-                seatButtonLabel.text = busy ? action : $"{action}\n<size=60%>[{toggleSeatKey}]</size>";
+                string hint = IsXrHintMode() ? "A / X" : toggleSeatKey.ToString();
+                seatButtonLabel.text = busy ? action : $"{action}\n<size=60%>[{hint}]</size>";
             }
 
             if (seatButtonRenderer != null)

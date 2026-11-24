@@ -73,3 +73,39 @@ crashlytics-build.properties
 
 # Course brief repo (separate git repo, not part of the project)
 /giga-ea234505-2026-final-project-group-3/
+
+# Unity 6 Android CMake/Gradle temporary build cache (contains local paths)
+/.utmp/
+/.utmp.meta
+
+# Local device configuration (contains headset serial number & hardware snapshot)
+/config.json
+
+# Build artifacts, packages & shipping exclusions
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.provenance.json
+*_BurstDebugInformation_DoNotShip/
+*_BackUpThisFolder_ButDontShipItWithYourGame/
+/Data/Plugins/
+
+# Signing keys, credentials & environment secrets (never commit to public repos)
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+.env
+.env.*
+local.properties
+google-services.json
+GoogleService-Info.plist
+
+# Logs, test reports & crash dumps
+*.log
+test-results*.xml
+test-results*.json
+sysinfo.txt
+*.stackdump
